@@ -1,8 +1,8 @@
-# CRA - LIBS E PLUGINS BÁSICOS
+# CRA - WEB-DEV-STARTER
 
 Um template para facilitar a vida de estudantes de desenvolvimento web front-end. Com esse template, seu projeto já terá suporte ao ESLint para analisar erros no código e reforçar as boas práticas e junto com ele, o formatador Prettier para que ganhemos qualidade de vida ao ajeitar o código segundo as normas do linter.
 
-### Libs que vêm com este template:
+### Libs e ferramentas que vêm com este template:
 
 - React Router - ^5.2,
 
@@ -25,11 +25,11 @@ Um template para facilitar a vida de estudantes de desenvolvimento web front-end
 **Com NPM:**
 
 ```
-npx create-react-app nome-do-seu-projeto --template libs-e-plugins-basicos
+npx create-react-app nome-do-seu-projeto --template web-dev-starter
 ```
 
 **Com YARN:**
 
 ```
-yarn create react-app nome-do-seu-projeto --template libs-e-plugins-basicos
+yarn create react-app nome-do-seu-projeto --template web-dev-starter
 ```

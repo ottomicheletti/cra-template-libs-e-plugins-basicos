@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-libs-e-plugins-basicos",
+  "name": "cra-template-web-dev-starter",
   "description": "Um template customizado para criar um app React com as libs React Router V5 e PropTypes. ESLint funcionando em conjunto com o Prettier seguindo os padrões AirBnB.",
   "version": "0.1.0",
   "license": "MIT",
@@ -8,13 +8,14 @@
     "javascript",
     "react-router-dom",
     "testing-library",
+    "axios",
     "prop-types",
     "eslint",
     "prettier"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ottomicheletti/cra-template-libs-e-plugins-basicos"
+    "url": "https://github.com/ottomicheletti/cra-template-web-dev-starter"
   },
   "main": "template.json",
   "files": [
