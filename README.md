@@ -12,6 +12,8 @@ Um template para facilitar a vida de estudantes de desenvolvimento web front-end
 
 - JSX-a11y - ^6.5.1,
 
+- Axios - ^0.26.1,
+
 - ESLint - ^8.11,
 
 - StyleLint - ^14.6,
