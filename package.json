@@ -1,7 +1,7 @@
 {
   "name": "cra-template-libs-e-plugins-basicos",
   "description": "Um template customizado para criar um app React com as libs React Router V5 e PropTypes. ESLint funcionando em conjunto com o Prettier seguindo os padrões AirBnB.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "keywords": [
     "react",
