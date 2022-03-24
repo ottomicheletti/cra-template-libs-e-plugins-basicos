@@ -1,7 +1,7 @@
 {
   "name": "cra-template-web-dev-starter",
   "description": "Um template para facilitar a vida de estudantes de desenvolvimento web front-end. Com esse template, seu projeto terá suporte ao ESLint para analisar erros no código seguindo os padrões do AirBnb, e junto com ele, o formatador Prettier para que ganhemos qualidade de vida ao ajeitar o código e reforçar o uso das boas práticas.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "keywords": [
     "react",
@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "axios": "^0.26.1",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.11.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
@@ -62,6 +63,11 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "browserslist": {
     "production": [
