@@ -1,6 +1,5 @@
 # CRA - WEB-DEV-STARTER
 
-<!--TODO: EDITAR README - descrição: inserir Axios -->
 <div>
   <img src="https://img.shields.io/github/package-json/v/ottomicheletti/cra-template-web-dev-starter?color=green&label=VERS%C3%83O&style=for-the-badge" alt="badge para mostrar a versão do template">
   <img src="https://img.shields.io/npm/dt/cra-template-web-dev-starter?label=DOWNLOADS&style=for-the-badge" alt="badge para mostrar a quantidade de downloads do template">
@@ -52,4 +51,25 @@ npx create-react-app nome-do-seu-projeto --template web-dev-starter
 
 ```
 yarn create react-app nome-do-seu-projeto --template web-dev-starter
+```
+
+## SUGESTÃO APÓS INSTALAÇÃO:
+
+Para quem desejar padronizar seus commits de acordo com as especificações do [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), recomendo o uso da biblioteca Commitzen, que já está pré-configurada no package.json. Para habilitá-la, é necessário que se faça dois comandos:
+
+#### 1˚)
+```
+npm install commitizen -g
+```
+
+#### 2˚)
+
+**NPM:**
+```
+commitizen init cz-conventional-changelog --save-dev --save-exact
+```
+
+**YARN**
+```
+commitizen init cz-conventional-changelog --yarn --dev --exact
 ```
