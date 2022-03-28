@@ -55,21 +55,8 @@ yarn create react-app nome-do-seu-projeto --template web-dev-starter
 
 ## SUGESTÃO APÓS INSTALAÇÃO:
 
-Para quem desejar padronizar seus commits de acordo com as especificações do [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), recomendo o uso da biblioteca Commitzen, que já está pré-configurada no package.json. Para habilitá-la, é necessário que se faça dois comandos:
+Para quem desejar padronizar seus commits de acordo com as especificações do [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), recomendo o uso da biblioteca Commitzen, que já está pré-configurada no package.json. Para habilitá-la, é necessário que se faça apenas um comando no terminal:
 
-#### 1˚)
 ```
-npm install commitizen -g
-```
-
-#### 2˚)
-
-**NPM:**
-```
-commitizen init cz-conventional-changelog --save-dev --save-exact
-```
-
-**YARN**
-```
-commitizen init cz-conventional-changelog --yarn --dev --exact
+npx commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
