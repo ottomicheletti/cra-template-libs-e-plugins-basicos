@@ -1,35 +1,50 @@
 {
   "name": "cra-template-web-dev-starter",
-  "description": "Um template para facilitar a vida de estudantes de desenvolvimento web front-end. Com esse template, seu projeto terá suporte ao ESLint para analisar erros no código seguindo os padrões do AirBnb, e junto com ele, o formatador Prettier para que ganhemos qualidade de vida ao ajeitar o código e reforçar o uso das boas práticas.",
-  "version": "0.1.1",
-  "license": "MIT",
+  "version": "0.1.3",
+  "private": false,
+  "main": "template.json",
   "keywords": [
-    "react",
-    "javascript",
-    "react-router-dom",
-    "testing-library",
     "axios",
-    "prop-types",
+    "create-react-app",
+    "commitzen",
     "eslint",
-    "prettier"
+    "javascript",
+    "jsx",
+    "prettier",
+    "prop-types",
+    "react",
+    "react-redux",
+    "react-router-dom",
+    "redux",
+    "reduxjs",
+    "template",
+    "testing-library"
   ],
+  "description": "Um template para facilitar a vida de estudantes de desenvolvimento web front-end. Com esse template, seu projeto terá suporte ao ESLint para analisar erros no código seguindo os padrões do AirBnb, e junto com ele, o formatador Prettier para que ganhemos qualidade de vida ao ajeitar o código e reforçar o uso das boas práticas.",
   "repository": {
     "type": "git",
     "url": "https://github.com/ottomicheletti/cra-template-web-dev-starter"
   },
-  "main": "template.json",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "files": [
     "template",
     "template.json"
   ],
   "dependencies": {
+    "@redux-devtools/extension": "^3.2.2",
+    "@reduxjs/toolkit": "^1.8.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.0",
+    "redux": "^4.1.2",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
@@ -37,16 +52,28 @@
     "eslint": "^8.11.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest-dom": "^4.0.1",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-sonarjs": "^0.12.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
     "prettier": "^2.6.0",
     "prop-types": "^15.8.1",
     "stylelint": "^14.6.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "scripts": {
     "start": "react-scripts start",
@@ -56,23 +83,5 @@
     "format": "prettier . --write --ignore-path .gitignore && git update-index --again",
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js, .jsx, .ts, .tsx"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
