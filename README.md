@@ -19,8 +19,7 @@ Um template para facilitar a vida de estudantes de desenvolvimento web front-end
     <img src="https://img.shields.io/npm/dependency-version/cra-template-web-dev-starter/@testing-library/react?color=%23FC4544&label=TESTING-LIBRARY%2FREACT&logo=testing-library&logoColor=%23FC4544&style=for-the-badge" alt="badge para mostrar a versão do testing-library/react" />
     <img src="https://img.shields.io/npm/dependency-version/cra-template-web-dev-starter/@testing-library/jest-dom?color=%23FC4544&label=TESTING-LIBRARY%2FJEST-DOM&logo=testing-library&logoColor=%23FC4544&style=for-the-badge" alt="badge para mostrar a versão do testing-library/jest-dom" />
     <img src="https://img.shields.io/npm/dependency-version/cra-template-web-dev-starter/@testing-library/user-event?color=%23FC4544&label=TESTING-LIBRARY%2FUSER-EVENT&logo=testing-library&logoColor=%23FC4544&style=for-the-badge" alt="badge para mostrar a versão do testing-library/user-event" />
-    <img src="https://img.shields.io/npm/dependency-version/cra-template-web-dev-starter/redux?color=%237248B6&logo=redux&label=redux&logoColor=%237248B6&style=for-the-badge" alt="badge para mostrar a versão do redux" />
-    <img src="https://img.shields.io/npm/dependency-version/cra-template-web-dev-starter/redux-devtools-extension?color=%237248B6&label=redux-devtools-extension&logo=redux&logoColor=%237248B6&style=for-the-badge" alt="badge para mostrar a versão do redux-devtools-extension" />
+    <img src="https://img.shields.io/npm/dependency-version/cra-template-web-dev-starter/@redux-devtools/extension?color=%237248B6&label=redux-devtools/extension&logo=redux&logoColor=%237248B6&style=for-the-badge" alt="badge para mostrar a versão do redux-devtools-extension" />
 </div>
 
 ## DEPENDÊNCIAS DE DESENVOLVIMENTO:
